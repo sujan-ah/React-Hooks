@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassFive from "./components/ClassFive";
+import ClassFour from "./components/ClassFour";
+import ClassOne from "./components/ClassOne";
+import ClassThree from "./components/ClassThree";
+import ClassTwo from "./components/ClassTwo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ textAlign: "center" }}>
+      <h1 style={{ color: "#B148D2" }}>React Hooks</h1>
+      <ClassOne />
+      <ClassTwo />
+      <ClassThree />
+      <ClassFour />
+      <ClassFive />
     </div>
   );
 }
